@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SWindow</class>
+ <widget class="QMainWindow" name="SWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>-20</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>25</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>账户查询</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="tbSearch">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>711</width>
+      <height>201</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>查询初始日期：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leYear_1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leMonth_1">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>100</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leDay_1">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>100</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leYear_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>140</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leMonth_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>140</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leDay_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>140</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnS">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>180</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>查询时间段账目</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>121</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>查询终止日期：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>100</y>
+      <width>40</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>年</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>131</y>
+      <width>40</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>年</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>100</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>月</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>130</y>
+      <width>40</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>月</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>90</y>
+      <width>40</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>日</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>130</y>
+      <width>40</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>日</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>737</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
